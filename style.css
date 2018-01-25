@@ -6,8 +6,19 @@
 }
 
 @font-face {
+	font-family: Exo-Light;
+	font-style: italic;
+	src: url('exo-2/Exo2-LightItalic.otf');
+}
+
+@font-face {
 	font-family: Exo-Medium;
 	src: url('exo-2/Exo2-Medium.otf');
+}
+
+@font-face {
+	font-family: CODE;
+	src: url('CODE/CODE Light.otf');
 }
 
 @font-face {
@@ -25,7 +36,20 @@ body {
 	font-family: Exo-Light;
 }
 
-.navbar-brand {
+.navbar-brand, .display-4 {
 	font-family: CODE;
 	font-weight: bold;
+}
+
+.lead {
+	font-family: CODE;
+	font-size: 30px;
+}
+
+.border-dark {
+	border-radius: 0px;
+}
+
+.bg-dark {
+	border-radius: 0px;
 }
