@@ -1,0 +1,31 @@
+/* CSS Document */
+
+@font-face {
+	font-family: Exo-Light;
+	src: url('exo-2/Exo2-Light.otf');
+}
+
+@font-face {
+	font-family: Exo-Medium;
+	src: url('exo-2/Exo2-Medium.otf');
+}
+
+@font-face {
+	font-family: CODE;
+	font-weight: bold;
+	src: url('CODE/CODE Bold.otf');
+}
+
+@font-face {
+	font-family: CODE;
+	src: url('CODE/CODE Light.otf');
+}
+
+body {
+	font-family: Exo-Light;
+}
+
+.navbar-brand {
+	font-family: CODE;
+	font-weight: bold;
+}
