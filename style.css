@@ -36,9 +36,13 @@ body {
 	font-family: Exo-Light;
 }
 
-.navbar-brand, .display-1 {
+.navbar-brand, .display-4, .card-title {
 	font-family: CODE;
 	font-weight: bold;
+}
+
+.card-title {
+	padding-top: 10px;
 }
 
 .lead {
@@ -57,5 +61,5 @@ body {
 .jumbotron {
 	width: 100%;
 	border-radius: 0px;
-	background-image: url('images/wallpaper.jpg');
+	background-image: url('images/background.jpg');
 }
