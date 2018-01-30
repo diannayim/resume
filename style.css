@@ -63,3 +63,26 @@ body {
 	border-radius: 0px;
 	background-image: url('images/background.jpg');
 }
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: CODE;
+	font-weight: bold;
+}
+
+.section {
+	padding-top: 60px;
+}
+
+#navbar {
+	background-color: rgba(0,98,252,0.5);
+	transition: background-color 0.5s ease 0s;
+}
+
+#navbar.opaque {
+	background-color: rgba(0,98,252,1);
+	transition: background-color 0.5s ease 0s;
+}
+
+.card-text {
+	vertical-align: middle;
+}
