@@ -7,20 +7,24 @@
 	<link rel="stylesheet" href="style.css">
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	
 </head>
 
 <body>
-	<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #001941">
-		<a class="navbar-brand" href="#">Dianna Yim</a>
+	<nav id="navbar" class="navbar navbar-expand-lg navbar-dark fixed-top opaque">
+		<a class="navbar-brand" href="#">
+			<img src="images/Dianna.png" width="30px" height="30px" alt="img">
+		</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false">
 			<span class="navbar-toggler-icon"></span>
 		</button>
 		
 		<div class="collapse navbar-collapse" id="navbarSupportedContent">
 			<ul class="navbar-nav mr-auto">
-				<li class="nav-item active">
-					<a class="nav-link" href="#">Home</a>
+				<li class="nav-item">
+					<a class="nav-link" href="#home">Home</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link" href="#projects">Projects</a>
@@ -32,18 +36,25 @@
 		</div>
 	</nav>
 	
-	<div class="jumbotron bg-dark text-white text-center">
-		<h1 class="display-4" style="text-align: center; font-size: 80px">Dianna Yim</h1>
-		<p class="lead">"The ones who are crazy enough to think they can change the world are the ones who do."</p>
-		<p>Master's student at the University of Calgary.</p>
-		<p>Graduated from Software Engineering at the University of Calgary.</p>
+	<div id="home" class="jumbotron section bg-dark text-white text-center" style="padding-top: 90px">
+		<div class="container">
+			<h1 class="display-4" style="text-align: center; font-size: 80px">Dianna Yim</h1>
+			<p class="lead">"The ones who are crazy enough to think they can change the world are the ones who do." </p>
+			<p>Master's student at the University of Calgary.</p>
+			<p>Graduated from Software Engineering at the University of Calgary.</p>
+		</div>
 	</div>
-	<div class="container" data-spy="scroll">
-		<div class="row" id="projects">
+	
+	<div class="container">
+		<div class="row section" id="about">
+			<div class="col-xl-12 bg-gradient-dark">
+				<h1>About</h1>
+				<hr class="bg-dark">
+			</div>
 			<div class="col-sm-4 col-xs-12">
 				<div class="card border-dark mb-3">
 					<div class="card-header">
-						<h3 class="card-title"><b>Experience</b></h3>
+						<h4 class="card-title"><b>Experience </b></h4>
 					</div>
 					<div class="card-body">
 						<p class="card-text">Some quick exmaple text to build on card title to make up the builk of the card's content.</p>
@@ -53,7 +64,7 @@
 			<div class="col-sm-4 col-xs-12">
 				<div class="card border-dark mb-3">
 					<div class="card-header">
-						<h3 class="card-title">Dark Card Title</h3>
+						<h4 class="card-title">Dark Card Title</h4>
 					</div>
 					<div class="card-body text-dark">
 						<p class="card-text">Some quick exmaple text to build on card title to make up the builk of the card's content.</p>
@@ -63,7 +74,271 @@
 			<div class="col-sm-4 col-xs-12">
 				<div class="card border-dark mb-3">
 					<div class="card-header">
-						<h3 class="card-title">Dark Card Title</h3>
+						<h4 class="card-title">Dark Card Title</h4>
+					</div>
+					<div class="card-body">
+						<p class="card-text">Some quick exmaple text to build on card title to make up the builk of the card's content.</p>
+					</div>
+				</div>
+			</div>			<div class="col-sm-4 col-xs-12">
+				<div class="card border-dark mb-3">
+					<div class="card-header">
+						<h4 class="card-title"><b>Experience</b></h4>
+					</div>
+					<div class="card-body">
+						<p class="card-text">Some quick exmaple text to build on card title to make up the builk of the card's content.</p>
+					</div>
+				</div>
+			</div>			
+			<div class="col-sm-4 col-xs-12">
+				<div class="card border-dark mb-3">
+					<div class="card-header">
+						<h4 class="card-title">Dark Card Title</h4>
+					</div>
+					<div class="card-body text-dark">
+						<p class="card-text">Some quick exmaple text to build on card title to make up the builk of the card's content.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-4 col-xs-12">
+				<div class="card border-dark mb-3">
+					<div class="card-header">
+						<h4 class="card-title">Dark Card Title</h4>
+					</div>
+					<div class="card-body">
+						<p class="card-text">Some quick exmaple text to build on card title to make up the builk of the card's content.</p>
+					</div>
+				</div>
+			</div>
+						<div class="col-sm-4 col-xs-12">
+				<div class="card border-dark mb-3">
+					<div class="card-header">
+						<h4 class="card-title"><b>Experience</b></h4>
+					</div>
+					<div class="card-body">
+						<p class="card-text">Some quick exmaple text to build on card title to make up the builk of the card's content.</p>
+					</div>
+				</div>
+			</div>			
+			<div class="col-sm-4 col-xs-12">
+				<div class="card border-dark mb-3">
+					<div class="card-header">
+						<h4 class="card-title">Dark Card Title</h4>
+					</div>
+					<div class="card-body text-dark">
+						<p class="card-text">Some quick exmaple text to build on card title to make up the builk of the card's content.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-4 col-xs-12">
+				<div class="card border-dark mb-3">
+					<div class="card-header">
+						<h4 class="card-title">Dark Card Title</h4>
+					</div>
+					<div class="card-body">
+						<p class="card-text">Some quick exmaple text to build on card title to make up the builk of the card's content.</p>
+					</div>
+				</div>
+			</div>
+						<div class="col-sm-4 col-xs-12">
+				<div class="card border-dark mb-3">
+					<div class="card-header">
+						<h4 class="card-title"><b>Experience</b></h4>
+					</div>
+					<div class="card-body">
+						<p class="card-text">Some quick exmaple text to build on card title to make up the builk of the card's content.</p>
+					</div>
+				</div>
+			</div>			
+			<div class="col-sm-4 col-xs-12">
+				<div class="card border-dark mb-3">
+					<div class="card-header">
+						<h4 class="card-title">Dark Card Title</h4>
+					</div>
+					<div class="card-body text-dark">
+						<p class="card-text">Some quick exmaple text to build on card title to make up the builk of the card's content.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-4 col-xs-12">
+				<div class="card border-dark mb-3">
+					<div class="card-header">
+						<h4 class="card-title">Dark Card Title</h4>
+					</div>
+					<div class="card-body">
+						<p class="card-text">Some quick exmaple text to build on card title to make up the builk of the card's content.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="row section" id="projects">
+			<div class="col-xl-12">
+				<h1>Projects</h1>
+				<hr class="bg-dark">
+			</div>
+			<div class="col-xl-12">
+				<div class="card border-dark mb-3">
+					<div class="card-header">
+						<h4 class="card-title"><b>CPSC 683 Project - Breaking It Down</b></h4>
+					</div>
+					<div class="card-body">
+						<div class="row">
+							<div class="col-xl-7 col-xs-12">
+								<div class="embed-responsive embed-responsive-16by9">
+									<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ZIuL4BLwOPc" allowfullscreen></iframe>
+								</div>
+							</div>
+							<div class="col-xl-5 col-xs-12">
+								<p class="card-text">Information visualization project that incorporates 3D visualization of cubes from a dataset representing Las Vegas hotel review data. </p>
+								<a class="card-text" href="https://archive.ics.uci.edu/ml/datasets/Las+Vegas+Strip">Las Vegas Dataset</a>
+								<br>
+								<a class="card-text" href="https://github.com/diannayim/CPSC683InfoVis">Github Link</a>
+							</div>
+							</div>
+					</div>
+				</div>
+			</div>			
+			<div class="col-sm-4 col-xs-12">
+				<div class="card border-dark mb-3">
+					<div class="card-header">
+						<h4 class="card-title">Dark Card Title</h4>
+					</div>
+					<div class="card-body text-dark">
+						<p class="card-text">Some quick exmaple text to build on card title to make up the builk of the card's content.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-4 col-xs-12">
+				<div class="card border-dark mb-3">
+					<div class="card-header">
+						<h4 class="card-title">Dark Card Title</h4>
+					</div>
+					<div class="card-body">
+						<p class="card-text">Some quick exmaple text to build on card title to make up the builk of the card's content.</p>
+					</div>
+				</div>
+			</div>			<div class="col-sm-4 col-xs-12">
+				<div class="card border-dark mb-3">
+					<div class="card-header">
+						<h4 class="card-title"><b>Experience</b></h4>
+					</div>
+					<div class="card-body">
+						<p class="card-text">Some quick exmaple text to build on card title to make up the builk of the card's content.</p>
+					</div>
+				</div>
+			</div>			
+			<div class="col-sm-4 col-xs-12">
+				<div class="card border-dark mb-3">
+					<div class="card-header">
+						<h4 class="card-title">Dark Card Title</h4>
+					</div>
+					<div class="card-body text-dark">
+						<p class="card-text">Some quick exmaple text to build on card title to make up the builk of the card's content.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-4 col-xs-12">
+				<div class="card border-dark mb-3">
+					<div class="card-header">
+						<h4 class="card-title">Dark Card Title</h4>
+					</div>
+					<div class="card-body">
+						<p class="card-text">Some quick exmaple text to build on card title to make up the builk of the card's content.</p>
+					</div>
+				</div>
+			</div>
+						<div class="col-sm-4 col-xs-12">
+				<div class="card border-dark mb-3">
+					<div class="card-header">
+						<h4 class="card-title"><b>Experience</b></h4>
+					</div>
+					<div class="card-body">
+						<p class="card-text">Some quick exmaple text to build on card title to make up the builk of the card's content.</p>
+					</div>
+				</div>
+			</div>			
+			<div class="col-sm-4 col-xs-12">
+				<div class="card border-dark mb-3">
+					<div class="card-header">
+						<h4 class="card-title">Dark Card Title</h4>
+					</div>
+					<div class="card-body text-dark">
+						<p class="card-text">Some quick exmaple text to build on card title to make up the builk of the card's content.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-4 col-xs-12">
+				<div class="card border-dark mb-3">
+					<div class="card-header">
+						<h4 class="card-title">Dark Card Title</h4>
+					</div>
+					<div class="card-body">
+						<p class="card-text">Some quick exmaple text to build on card title to make up the builk of the card's content.</p>
+					</div>
+				</div>
+			</div>
+						<div class="col-sm-4 col-xs-12">
+				<div class="card border-dark mb-3">
+					<div class="card-header">
+						<h4 class="card-title"><b>Experience</b></h4>
+					</div>
+					<div class="card-body">
+						<p class="card-text">Some quick exmaple text to build on card title to make up the builk of the card's content.</p>
+					</div>
+				</div>
+			</div>			
+			<div class="col-sm-4 col-xs-12">
+				<div class="card border-dark mb-3">
+					<div class="card-header">
+						<h4 class="card-title">Dark Card Title</h4>
+					</div>
+					<div class="card-body text-dark">
+						<p class="card-text">Some quick exmaple text to build on card title to make up the builk of the card's content.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-4 col-xs-12">
+				<div class="card border-dark mb-3">
+					<div class="card-header">
+						<h4 class="card-title">Dark Card Title</h4>
+					</div>
+					<div class="card-body">
+						<p class="card-text">Some quick exmaple text to build on card title to make up the builk of the card's content.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="row section" id="contact">
+			<div class="col-xl-12">
+				<h1>Contact</h1>
+				<hr class="bg-dark">
+			</div>
+			<div class="col-sm-4 col-xs-12">
+				<div class="card border-dark mb-3">
+					<div class="card-header">
+						<h4 class="card-title"><b>Experience</b></h4>
+					</div>
+					<div class="card-body">
+						<p class="card-text">Some quick exmaple text to build on card title to make up the builk of the card's content.</p>
+					</div>
+				</div>
+			</div>			
+			<div class="col-sm-4 col-xs-12">
+				<div class="card border-dark mb-3">
+					<div class="card-header">
+						<h4 class="card-title">Dark Card Title</h4>
+					</div>
+					<div class="card-body text-dark">
+						<p class="card-text">Some quick exmaple text to build on card title to make up the builk of the card's content.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-4 col-xs-12">
+				<div class="card border-dark mb-3">
+					<div class="card-header">
+						<h4 class="card-title">Dark Card Title</h4>
 					</div>
 					<div class="card-body">
 						<p class="card-text">Some quick exmaple text to build on card title to make up the builk of the card's content.</p>
@@ -72,5 +347,7 @@
 			</div>
 		</div>
 	</div>
+	
+	<script src="script.js"></script>
 </body>
 </html>
